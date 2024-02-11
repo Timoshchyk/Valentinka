@@ -5,23 +5,23 @@ body {
   justify-content: space-evenly;
   height: 100vh;
   margin: 0;
-  background: url("images/image.jpg") repeat;
+  background: url("images/image1.jpg") repeat;
   font-size: 35px;
-  color: rgb(255, 0, 174);
+  color: #ebe049;
   height: 100vh;
   position: fixed;
   width: 100%;
 }
 .hh {
-  -webkit-text-stroke: 2px #71004f;
+  -webkit-text-stroke: 1px #000000;
   font-weight: 900;
   font-size: 50px;
 }
 .pp {
-  -webkit-text-stroke: 2px #71004f;
+  -webkit-text-stroke: 1px #000000;
   font-size: 30px;
-  font-style: oblique;
-  font-weight: 800;
+  font-style: italic;
+  font-weight: 700;
 }
 
 body .container {
@@ -37,7 +37,7 @@ body .container {
 }
 
 .image {
-  height: calc(100vh - 600px);
+  height: calc(100vh - 500px);
 }
 
 .text {
